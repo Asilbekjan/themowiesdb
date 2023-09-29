@@ -1,0 +1,43 @@
+.header_img{
+    width: 100%;
+    position: relative;
+    height: 48vh;
+}
+.header_title{
+    position: absolute;
+    top: 120px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 55px;
+    color: white;
+
+}
+.header_desc{
+    color: white;
+    position: absolute;
+    top: 185px;
+    font-family: sans-serif;
+}
+.header_input{
+    position: absolute;
+    top: 290px;
+    width: 90%;
+    padding: 16.8px;
+    border: none;
+    border-radius: 30px;
+}
+.header_btn{
+    position: absolute;
+    top: 291px;
+    left: 1063px;
+    padding: 14.4px 26px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: rgb(30, 159, 159);
+    color: white;
+}
+.header_link{
+    text-decoration: none;
+    color: white;
+}

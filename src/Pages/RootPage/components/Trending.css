@@ -1,0 +1,35 @@
+
+.trending_card img{
+    width: 180px !important;
+    /* height: 225px; */
+    border-radius: 10px;
+    background: transparent;
+    height: 230px;
+    object-fit: cover;
+ 
+}
+/* .bacrounds_image{
+    background-image: url(../../../public/assets/img/weekly-content-backround.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+.trending_card{
+    width: 180px;
+    height: 350px;
+}
+.trending_desciription{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.trending_desciription:hover{
+    color: rgb(45, 180, 180);
+}
+.trending_title{
+    color: black;
+}
+.day_description{
+    margin: 2px;
+    font-size: 15px;
+}

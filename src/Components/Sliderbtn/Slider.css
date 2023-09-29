@@ -1,0 +1,32 @@
+.btn{
+    background-color: transparent;
+    font-size: 20px;
+    /* margin-left: 10px; */
+    color: rgb(16, 255, 20);
+    width: 89px;
+}
+.btns{
+    border: 1px solid black;
+    width: 185px;
+    border-radius: 20px;
+    position: relative;
+}
+.active{
+    width: 95px;
+    background-color: black;
+    height: 31px;
+    position: absolute;
+    border-radius: 20px;
+    color: green;
+    z-index: -3;
+    transition: 0.5s;
+}
+.btn-left{
+    transform: translateX(0px);
+}
+.btn-right{
+    transform: translateX(88px);
+}
+.btn-rightt{
+    margin-left: 5px;
+}
